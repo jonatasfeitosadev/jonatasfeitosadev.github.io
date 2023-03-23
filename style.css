@@ -1,10 +1,13 @@
-
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: 'Roboto';
     font-weight: 400;
     background-color: #14213d;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h1 {
@@ -33,13 +36,14 @@ h2 {
     font-weight: 600;
     color: #fca311;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .skills-text {
     line-height: 30px;
     font-style: italic;
     font-weight: 400;
+    list-style: none;
 }
 
 .description-style {
@@ -48,4 +52,41 @@ h2 {
 
 #dev-name {
     text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+#about-container {
+    border-top: 1px solid white;
+    height: 300px;
+    width: 100%;
+    padding: 50px;
+
+}
+
+.about-me-img{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    
+}
+
+.about-me {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    line-height: 30px;
+}
+
+#my-skills {
+    border-top: 1px solid white;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+#indice-container {
+    border-top: 1px solid white;
 }
