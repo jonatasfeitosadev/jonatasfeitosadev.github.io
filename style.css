@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    background-color: #14213d;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+h1 {
+    color: #fca311;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.indice-style {
+    color: #fff;
+    font-weight: 400; 
+    text-decoration: none;                                                
+}
+
+.dev-photo {
+    border-radius: 100%;
+       
+}
+
+.title-decoration {
+    font-weight: 600;
+    color: #fca311;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.skills-text {
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.description-style {
+    font-weight: 300;
+}
+
+#dev-name {
+    text-align: center;
+}
